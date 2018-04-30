@@ -38,13 +38,13 @@ module.exports = {
               sourceMap: true,
               includePaths: ["styles"]
             }
-          },
-          {
-            test: /\.(gif|jpeg|jpg|png)$/,
-            loader: "file-loader"
           }
         ]
-      }
+      },
+      {
+        test: /\.(gif|jpeg|jpg|png)$/,
+        loader: "file-loader"
+      }  
     ]
   },
   plugins: [
